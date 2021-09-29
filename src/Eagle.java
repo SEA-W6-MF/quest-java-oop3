@@ -71,15 +71,5 @@ public class Eagle extends Bird implements Fly {
         return this.altitude;
     }
 
-    /**
-     * for landing on the ground, must not be higher than 1 m
-     */
-    @Override
-    public void land() {
-        if (this.flying && (this.altitude > 1)) {
-            System.out.printf("%s is too high, it can't land.%n", this.getName());
-        } else {
-            System.out.printf("%s lands on ground.%n", this.getName());
-        }
-    }
+
 }

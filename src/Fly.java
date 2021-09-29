@@ -8,6 +8,10 @@ public interface Fly {
 
     int descend(int meters);
 
-    void land();
+    /* int swimUp(int meters);
+
+    void getOut();
+    */
+
 
 }
